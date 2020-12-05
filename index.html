@@ -1,198 +1,418 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
-<!--[if gt IE 8]> <html> <![endif]-->
-<!--[if !IE]><!--><html lang="en"><!-- <![endif]-->
+<html lang="en" class="no-js">
+
 <head>
-	<title>Happy Birthday</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Happy Birthday Xola">
-	<meta name="robots" content="index, follow" />
-	<link rel="author" href="https://plus.google.com/u/1/+AyushSharma1/" /> 
-    <meta name="keywords" content="Birthday, Happy">
-    <!-- Strat of Facebook Meta -->
-    <meta property="og:type" content="E-Greeting" />
-    <meta property="og:image" content="favicon.ico" />
-    <meta property="og:description" content="Wish you a very Happy Birthday">
-    <!-- End of Facebook Meta Tags -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="loading.css">
-	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
-	<link rel="stylesheet/less" href="cake.less">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="A smooth scrolling and inner image animation effect." />
+	<meta name="keywords" content="smooth scrolling, animation, image effect, web design, tutorial, javascript" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/qrg0pyh.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 
+
 <body>
-	<div class="loading"></div>
-	<audio class="song" controls loop>
-        <source src="hbd.mp3"></source>
-	   Your browser isn't invited for super fun audio time.
-    </audio>
-    <div class="balloons text-center" id="b1">
-    	<h2 style="color:#F2B300;">H</h2>
-    </div>
-    <div class="balloons text-center" id="b2">
-    	<h2 style="color:#0719D4;">B</h2>
-    </div>
-	<div class="balloons text-center" id="b3">
-    	<h2 style="color:#D14D39;">D</h2>
-    </div>
-	<div class="balloons text-center" id="b4">
-    	<h2 style="color:#8FAD00;">X</h2>
-    </div>
-	<div class="balloons text-center" id="b5">
-    	<h2 style="color:#8377E4;">O</h2>
-    </div>
-    <div class="balloons text-center" id="b6">
-    	<h2 style="color:#99C96A;">L</h2>
-    </div>
-    <div class="balloons text-center" id="b7">
-    	<h2 style="color:#20CFB4;">A</h2>
-    </div>
-
-    <img src="Balloon-Border.png" width="100%" class="balloon-border">
- 
-
-	<div class="container">
-		
-		<div class="row">
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_yellow"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_red"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_blue"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_green"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_pink"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_orange"></div>
-			</div>
+	<div class="apple">
+		<div class="sticky">
+			<h1>Happy Birthday </h1>
 		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<img src="banner.png" class="bannar">
-			</div>
-		</div>
-		<div class="row cake-cover">
-			<div class="col-md-12 texr-center">
-				<div class="cake">
-				  <div class="velas">
-				    <div class="fuego"></div>
-				    <div class="fuego"></div>
-				    <div class="fuego"></div>
-				    <div class="fuego"></div>
-				    <div class="fuego"></div>
-				  </div>
-				  <div class="cobertura"></div>
-				  <div class="bizcocho"></div>
+	</div>
+	<div class="bodylike loading">
+		<main>
+
+			<div data-scroll>
+
+
+				<div class="frame">
+
+					<div class="frame__links">
+						<a>Play music</a>
+
+					</div>
+				</div>
+				<div class="content">
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t1"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">阳阳!</h2>
+							<p class="item__caption-copy">
+								故事的一切都要从这里开始说起<br><br><br><br><br>偷偷和你说一个小秘密哦!其实那天我吃个生煎包吃了这么久就是为了多看两眼店里面的漂亮小姐姐!
+							</p>
+
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">印度🇮🇳/印尼🇮🇩?水烟🚬</h2>
+							<p class="item__caption-copy">第一次把我的 bb 介绍给我的朋友们 :P☺️ <br><br>他们后来都在背后夸你好看</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t3"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">西伯利亚人打棒球⛳️</h2>
+							<p class="item__caption-copy">那个时候还是个棒球小菜比 🥗 现在已经可以打 100 米啦!!!好棒!!!!</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t1"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">户外甜心</h2>
+							<p class="item__caption-copy">第一次见到体力比我还好的女孩子👩‍🦰<br><br>嗖嗖嗖🏃‍♀️的就爬到好高好高</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">短发少女</h2>
+							<p class="item__caption-copy">哎古! 那个时候的小栗栗看起来好清纯 <br><br>哪里想得到是个超色的女生🙈🙈🙈
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">海天一色</h2>
+							<p class="item__caption-copy">海天一色,岸边美人
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">花枝招展</h2>
+							<p class="item__caption-copy">我看栗栗的眼神就是栗栗看着这束花的眼神🥰🥰🥰🥰
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">第一次见家长</h2>
+							<p class="item__caption-copy">表婶超喜欢栗栗的,老是在阳阳妈妈面前夸栗栗 <br><br>好好笑,竟然在教小孩谈恋爱和越狱
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">一个月纪念日</h2>
+							<p class="item__caption-copy">冲啊!淦饭人!李奶奶吃这么多为什么还这么瘦
+								<br>
+								<br>
+								<br>
+								💩应该超大一坨的吧!(这个人好会破坏气氛哦
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">睡美人</h2>
+							<p class="item__caption-copy">这个人我看压根就不是读书人吧🧐
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">SecondSkin</h2>
+							<p class="item__caption-copy">👹👹👹👹👹👹👹👹👹👹👹👹👹👹👹👹👹👹👹
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">黑白配!男生女生配!</h2>
+							<p class="item__caption-copy">震惊!开放情侣竟然公然在图书馆往嘴里塞这个东西!🥵
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">放工💵</h2>
+							<p class="item__caption-copy">上一天班累坏了吧!💆‍♀️💆‍♀️💆‍♀️
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">饭前舞</h2>
+							<p class="item__caption-copy">
+								来了来了!这是学会了毛利人的习俗嘛!🍔🍟🌭🍕🍝🌮🌯🍜🍲🥗🍥🍣🥩🥪🥫🥟🥠🥧🥤🥨🥦🥄🥥🍪🍰🍦🍨🎂🍮🍬🍭🍫
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">好适合</h2>
+							<p class="item__caption-copy">我头上有犄角
+								我身后有尾巴
+								谁也都不知道
+								我有多少秘密!㊙️
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t3"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">🌰🐵</h2>
+							<p class="item__caption-copy"> 谢谢 bb 帮我敲肯王的狗头<br><br>真的是好般配的情侣呢💑</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t1"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">Freedom</h2>
+							<p class="item__caption-copy">第二次 lockdown 完第一次喝酒!🍺🍺🍷🍷</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">板栗🌰翻身踩马里奥🎩</h2>
+							<p class="item__caption-copy">踩把踩吧慢慢踩吧!<br><br><br><br>还有一辈子时间踩呢!
+							</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">干杯!🍺🍺🍺</h2>
+							<p class="item__caption-copy">谢谢 bb 带我认识你的朋友们!大家都好有才华🎬🎻🎸🎺🎹🎷🎨
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">房车</h2>
+							<p class="item__caption-copy">面朝 City 的夜景和 bb 吃 takeaway 真的好棒!谢谢我的大扎克伯格出的棒主意!
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">无题</h2>
+							<p class="item__caption-copy">可爱的人在哪里都会是焦点呢!<br><br><br><br>哈哈啊哈 其实我是在说后面的 Francis 啦!
+							</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">摄影生涯之巅</h2>
+							<p class="item__caption-copy">究竟是因为拍的好呢还是因为模特漂亮呢❓
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">原来如此</h2>
+							<p class="item__caption-copy">什么嘛!这才是我认识的李绮丽嘛🧸
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">【燊•茶艺女子图鉴】</h2>
+							<p class="item__caption-copy">你品,你细品
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">森林系女友</h2>
+							<p class="item__caption-copy">哈哈
+								这么大个树枝在头上都没发现<br><br>有够笨的<br><br><br><br>又是可恶的肯王把我们的杆子上弄得全是粘粘的糖🍬</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">仙气飘飘</h2>
+							<p class="item__caption-copy">看来不是每一个仙女都会飞🧚‍♀️🧚‍♂️</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">天文馆</h2>
+							<p class="item__caption-copy">一飞冲天,威力无边!<br><br><br><br>和 bb 去哪里都好玩!想和 bb 去遍世界的天南海角✈️🛥🚀
+								吃遍天下美食🥬🥟🍵🥦🍳🧀🥓🌭🥞🥐还有逛遍天下的超市!🏬🏰🏤🏯
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">综艺</h2>
+							<p class="item__caption-copy">for (var k in oot)
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">西张西望</h2>
+							<p class="item__caption-copy">两个大明星可以给我签一个名嘛!
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">万绿丛中一点红</h2>
+							<p class="item__caption-copy">是花样年华呀
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">路易基和马里奥</h2>
+							<p class="item__caption-copy">一起去探险吧!
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">乳沟</h2>
+							<p class="item__caption-copy">谢谢 bb 老是陪我玩无聊的东西
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">羽毛球🏸</h2>
+							<p class="item__caption-copy">栗栗仔的运动细胞真的是超级惊人呢!
+								<br><br><br><br>可能是栗栗仔一号带来的特殊天赋吧!
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">微观世界</h2>
+							<p class="item__caption-copy">喜欢和 bb 一起到处发现生活的美好
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">奥利狗和栗栗仔</h2>
+							<p class="item__caption-copy">一路看下来才发现 bb 的头发真的长长了好多呢!大家都毛茸茸的好可爱!!!🧸🐻🐶
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-wrap">
+							<div class="item__img item__img--t2"></div>
+						</div>
+						<div class="item__caption">
+							<h2 class="item__caption-title">他们说高中是生命中最美好的年华</h2>
+							<p class="item__caption-copy">可惜没能在最美好的年华遇见你
+								<br><br><br><br><br><br>可是我觉得,遇见 bb 后的这段岁月才是我最好的年华
+							</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
-		</div>
-		<div class="row message">
-			<div class="col-md-12">
-				<p>Today is...</p>
-				<p>as beautiful as other days</p>
-				<p>but you realize</p>
-				<p>another year has gone</p>
-				<p>in a blink of the eyes</p>
-				<p><strong>however</strong></p>
-				<p>Do you know..?</p>
-				<p>today is just special</p>
-				<p>so special to you</p>
-				<p>that's why</p>
-				<p>Let's make it...</p>
-				<p>the best celebration ever</p>
-				<p>and let me share...</p>
-				<p>a piece of happiness to you</p>
-				<p>I made all this...</p>
-				<p>as a birthday present to you</p>
-				<p>thanks for being there</p>
-				<p>thanks for the friendship we made</p>
-				<p>thanks for everything</p>
-				<p>I wish you all the best</p>
-				<p>May your life be at ease</p>
-				<p>May all your wishes come true</p>
-				<p>Remember</p>
-				<p>your ambitions</p>
-				<p>you live as a free bird...</p>
-				<p>flying in the blue sky</p>
-				<p>Now things are different...</p>
-				<p>real story of your life</p>
-				<p>is just about to begin</p>
-				<p>indeed..</p>
-				<p>but...</p>
-				<p>don't worry</p>
-				<p>because...</p>
-				<p>God has your back</p>
-				<p>and</p>
-				<p>this year will be better</p>
-				<p>and I hope</p>
-				<p>you'll find...</p>
-				<p>happiness along the way</p>
-				<p>keep your spirit up</p>
-				<p>enjoy every single moment...</p>
-				<p>that you experience today</p>
-				<p>fill it with your most beautiful smile</p>
-				<p>and make it the best memory..</p>
-				<p>lastly...</p>
-				<p>I'd like to wish you one more time</p>
-				<p>a very happy birthday Xola Mathembisa</p>
-			</div>
-		</div>
-		<div class="navbar navbar-fixed-bottom">
-			<div class="row">
-				<div class="col-md-6 text-center col-md-offset-3">
-					<button class="btn btn-primary" id="turn_on">Turn On Lights</button>
-					<button class="btn btn-primary" id="play">Play Music</button>
-					<button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
-					<button class="btn btn-primary" id="balloons_flying">Fly With Balloons</button>
-					<button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
-					<button class="btn btn-primary" id="light_candle"> Light Candle</button>
-					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
-					<button class="btn btn-primary" id="story">A mesage for you</button>
-					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
-				</div>
-			</div>
-			<!-- <div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div> -->
-		</div>
+		</main>
 
-
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/demo.js"></script>
 	</div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="effect.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58229732-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </html>
