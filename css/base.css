@@ -188,7 +188,7 @@ a:focus {
 .item:first-child .item__img-wrap {
 	
 	--aspect-ratio: 1;
-	--image: url(../img/1.JPG)
+	--image: url(/img/1.jpg)
 }
 
 .item:nth-child(2) .item__img-wrap {
@@ -199,7 +199,7 @@ a:focus {
 
 .item:nth-child(3) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/3.JPG);
+	--image: url(/img/3.jpg);
 }
 
 .item:nth-child(4) .item__img-wrap {
@@ -246,7 +246,7 @@ a:focus {
 .item:nth-child(10) .item__img-wrap {
 	width: 700px;
 	--aspect-ratio: 60/75;
-	--image: url(/img/10.JPG);
+	--image: url(/img/10.jpg);
 }
 
 .item:nth-child(11) .item__img-wrap {
@@ -273,7 +273,7 @@ a:focus {
 }
 .item:nth-child(15) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/15.JPG);
+	--image: url(/img/15.jpg);
 }
 .item:nth-child(16) .item__img-wrap {
 	width: calc(100vw - 2rem);
@@ -319,7 +319,7 @@ a:focus {
 }
 .item:nth-child(25) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/25.JPG);
+	--image: url(/img/25.jpg);
 }
 .item:nth-child(26) .item__img-wrap {
 	width: calc(80vw - 2rem);
@@ -333,7 +333,7 @@ a:focus {
 }
 .item:nth-child(28) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/28.JPG);
+	--image: url(/img/28.jpg);
 }
 .item:nth-child(29) .item__img-wrap {
 	width: calc(50vw - 2rem);
@@ -347,24 +347,24 @@ a:focus {
 }
 .item:nth-child(31) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/31.JPG);
+	--image: url(/img/31.jpg);
 }
 .item:nth-child(32) .item__img-wrap {
 	--aspect-ratio: 1;
-	--image: url(/img/32.JPG);
+	--image: url(/img/32.jpg);
 }
 .item:nth-child(33) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/33.JPG);
+	--image: url(/img/33.jpg);
 }
 .item:nth-child(34) .item__img-wrap {
 	width: calc(65vw - 2rem);
 	--aspect-ratio: 1200/844;
-	--image: url(/img/34.JPG);
+	--image: url(/img/34.jpg);
 }
 .item:nth-child(35) .item__img-wrap {
 	--aspect-ratio: 60/75;
-	--image: url(/img/35.JPG);
+	--image: url(/img/35.jpg);
 }
 
 .item:nth-child(36) .item__img-wrap {
