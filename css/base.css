@@ -188,7 +188,7 @@ a:focus {
 .item:first-child .item__img-wrap {
 	
 	--aspect-ratio: 1;
-	--image: url(/img/1.JPG)
+	--image: url(../img/1.JPG)
 }
 
 .item:nth-child(2) .item__img-wrap {
