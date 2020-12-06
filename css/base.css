@@ -13,6 +13,9 @@
 	margin: 0;
 	height: 300vh;
 }
+audio {
+	display: none;
+}
 body{
 	margin: 0px;
 }

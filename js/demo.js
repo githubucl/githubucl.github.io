@@ -1,15 +1,21 @@
 
 {
     const h1 = document.querySelector('h1')
-    const sticky1 = document.querySelector('.sticky')
+    const song = document.querySelector('.song')
     document.addEventListener('scroll', (e) => {
         let scrolled = (document.documentElement.scrollTop / (document.documentElement.scrollHeight * 0.042 - document.documentElement.clientHeight)) * 50
 
         h1.style.setProperty('--percentage', `${scrolled}%`)
-
-
+        console.log(scrolled);
 
     })
+
+    // sticky1.onclick = function () {
+    //     alert('hi')
+    //     var audio = $('.song')[0];
+    //     audio.play();
+    // }
+
 
     // helper functions
     const MathUtils = {
@@ -21,7 +27,10 @@
 
     // body element
     const body = document.querySelector(' .bodylike')
-
+    // const apple = document.querySelector('.apple')
+    body.addEventListener('dblclick', function () {
+        song.play()
+    })
 
     // calculate the viewport size
     let winsize;
